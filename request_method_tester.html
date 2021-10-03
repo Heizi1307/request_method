@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>request method tester</title>
+<meta charset="utf-8">
+</head>
+<body>
+<form action=/cgi-bin/request_method_get.py method=get>
+First Input: <input type=text name=asdf>
+Second Inupt: <input type=text name=jkl>
+<input type=submit>
+</form>
+<form action=/cgi-bin/request_method_get.py method=post>
+First Input: <input type=text name=asdf>
+Second Inupt: <input type=text name=jkl>
+<input type=submit>
+</form>
+<form action=/cgi-bin/request_method_post.py method=post>
+First Input: <input type=text name=text>
+Second Inupt: <input type=number name=size>
+<input type=submit>
+</form>
+<form action=/cgi-bin/request_method_post.py method=post>
+First Input: <input type=text name=text>
+Second Inupt: <input type=text name=size>
+<input type=submit>
+</form>
+</body>
+</html>
